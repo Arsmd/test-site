@@ -1,0 +1,57 @@
+/* Общий стиль */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #e0f7e9;
+    background: url('https://i.imgur.com/U7DUz7F.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(6px);
+}
+
+header, footer {
+    background-color: rgba(8, 20, 35, 0.85);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(12, 36, 60, 0.85);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: #85ffbd;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px #85ffbd88;
+}
+
+main {
+    padding: 40px 20px;
+    background-color: rgba(10, 26, 47, 0.7);
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #99ffcc;
+}
+
+footer p {
+    color: #557f76;
+}
